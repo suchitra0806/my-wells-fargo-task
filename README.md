@@ -28,13 +28,3 @@ FinancialAdvisor → Client → Portfolio → Security
 3. Run `Entrypoint.java`
 
 The app starts a local server backed by an H2 in-memory database. No external database setup required.
-
-## Project structure
-
-src/main/java/com/wellsfargo/counselor/
-├── Entrypoint.java
-└── entity/
-    ├── FinancialAdvisor.java
-    ├── Client.java
-    ├── Portfolio.java
-    └── Security.java
